@@ -43,7 +43,7 @@ public class WaterController : MonoBehaviour {
 			Vector2 p1 = new Vector2 (x,z);
 			Vector2 p2 = new Vector2 (waveSources[i].transform.position.x, waveSources[i].transform.position.z);
 			float dist = Vector2.Distance (p1,p2);
-			y += 3.0f * Mathf.Sin ((dist) * 6.0f - time * 12.0f) / (dist*12.0f + 4.0f);
+			y += 3.5f * Mathf.Sin ((dist) * 6.0f - time * 14.0f) / (dist*12.0f + 4.0f);
 		}
 		return y;
 	}

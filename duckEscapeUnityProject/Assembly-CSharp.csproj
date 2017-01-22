@@ -46,13 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BounceParticleController.cs" />
      <Compile Include="Assets\CreditsController.cs" />
      <Compile Include="Assets\EndSceneController.cs" />
      <Compile Include="Assets\GravityForceApplier.cs" />
      <Compile Include="Assets\MenuController.cs" />
      <Compile Include="Assets\MoveCamera.cs" />
+     <Compile Include="Assets\MusicPlayerController.cs" />
      <Compile Include="Assets\ObjectsGenerator.cs" />
      <Compile Include="Assets\PlaySceneController.cs" />
+     <Compile Include="Assets\PlayerBounceAudio.cs" />
+     <Compile Include="Assets\PlayerSqueek.cs" />
      <Compile Include="Assets\PlayerWinCheck.cs" />
      <Compile Include="Assets\Scripts\BuoyancyForceApplier.cs" />
      <Compile Include="Assets\Scripts\PlayerKeyboardMovementForce.cs" />
