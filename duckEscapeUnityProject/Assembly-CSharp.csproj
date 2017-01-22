@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C1C42CBD-EAA4-4841-19DF-A7701461905A}</ProjectGuid>
+    <ProjectGuid>{4C9036D7-0CBC-55FB-F5CA-FFB759D8F2BD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,9 +46,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PlayerKeyboardMovementForce.cs" />
-     <Compile Include="Assets\PlayerWaterForce.cs" />
-     <Compile Include="Assets\WaterController.cs" />
+     <Compile Include="Assets\BounceParticleController.cs" />
+     <Compile Include="Assets\CreditsController.cs" />
+     <Compile Include="Assets\EndSceneController.cs" />
+     <Compile Include="Assets\GravityForceApplier.cs" />
+     <Compile Include="Assets\MenuController.cs" />
+     <Compile Include="Assets\MoveCamera.cs" />
+     <Compile Include="Assets\MusicPlayerController.cs" />
+     <Compile Include="Assets\ObjectsGenerator.cs" />
+     <Compile Include="Assets\PlaySceneController.cs" />
+     <Compile Include="Assets\PlayerBounceAudio.cs" />
+     <Compile Include="Assets\PlayerSqueek.cs" />
+     <Compile Include="Assets\PlayerWinCheck.cs" />
+     <Compile Include="Assets\Scripts\BuoyancyForceApplier.cs" />
+     <Compile Include="Assets\Scripts\PlayerKeyboardMovementForce.cs" />
+     <Compile Include="Assets\Scripts\PlayerWaterForce.cs" />
+     <Compile Include="Assets\Scripts\WaterController.cs" />
+     <Compile Include="Assets\Scripts\tst.cs" />
+     <Compile Include="Assets\followPlayer.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
