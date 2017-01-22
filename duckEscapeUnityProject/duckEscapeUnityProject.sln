@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{11836604-72F3-347C-D21F-B1996BC9F084}") = "duckEscapeUnityProject", "Assembly-CSharp.csproj", "{4C9036D7-0CBC-55FB-F5CA-FFB759D8F2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C9036D7-0CBC-55FB-F5CA-FFB759D8F2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9036D7-0CBC-55FB-F5CA-FFB759D8F2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9036D7-0CBC-55FB-F5CA-FFB759D8F2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9036D7-0CBC-55FB-F5CA-FFB759D8F2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
